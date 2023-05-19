@@ -1,0 +1,31 @@
+/* import font  */
+@font-face {
+    font-family: Panthera;
+    src: url("../fonts/Panthera/panthera.ttf");
+}
+@font-face {
+    font-family: Cantarell;
+    src: url("../fonts/Cantarell/Cantarell-Regular.ttf");
+}
+@font-face {
+    font-family: BEYNO;
+    src: url("../fonts/BEYNO/BEYNO.ttf");
+}
+@font-face {
+    font-family: Wakanda forever;
+    src: url("../fonts/Wakanda_forever/WakandaForever-Regular.ttf");
+}
+html{
+    font-size: 1.04vw;
+    font-family: 'Cantarell';
+    background-image: linear-gradient(to right, #0E0E11 30%, #323C54 70%);
+    color: white;
+}
+h1{
+    font-family: 'Panthera';
+    font-size: 4.25em; ;
+}
+h2{
+    font-family: 'BEYNO';
+    font-size: 2em;
+}
