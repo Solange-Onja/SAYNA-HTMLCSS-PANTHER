@@ -15,17 +15,110 @@
     font-family: Wakanda forever;
     src: url("../fonts/Wakanda_forever/WakandaForever-Regular.ttf");
 }
-html{
+body{
     font-size: 1.04vw;
     font-family: 'Cantarell';
     background-image: linear-gradient(to right, #0E0E11 30%, #323C54 70%);
     color: white;
+    margin: 0;
+    padding: 0;
+   
+    
 }
 h1{
     font-family: 'Panthera';
-    font-size: 4.25em; ;
+    font-size: 4.25em;
+    color: #9E91B7;
 }
+
 h2{
     font-family: 'BEYNO';
     font-size: 2em;
+    color: white;
 }
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 3vw;
+    margin: 3%;
+
+}
+
+nav ul {
+    display: flex;
+    padding-right: 5%;
+    list-style: none;
+}
+
+
+nav ul li {
+    color: white;
+    padding-right: 10%;
+    justify-content: space-between;
+    
+}
+nav ul li a{
+    padding-left: -5%;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+p{
+text-align: justify;
+line-height: 1;
+}
+footer{
+    display: grid;
+    grid-template-columns: 40vw 60vw;
+    background-image: url('../images/all/back_footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+}
+.footer1 {
+    position: absolute;
+    top: 5vw;
+    left: 15vw;
+    width: 15vw;
+  }
+  
+  .footer2 {
+    opacity: 0.5; /* ajustez l'opacité selon vos besoins */
+    position: absolute;
+    top: 13vw;
+    left: 18vw;
+    width: 8vw;
+  }
+  .column2{
+    padding-top: 5vw;
+    display: grid;
+   
+    grid-template:10vw 10vw / 25vw 25vw;
+    column-gap: 2vw;   
+  }
+  .logofooter{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* justify-content: center; */
+    padding-right: 3%;
+  
+  }
+  .imagefooter{
+  padding-right: 1vw;
+  left: 1vw;
+   width: 3vw;
+  }
+  .columnfusioner{
+    grid-column: 1 / 3;
+    /* text-align: center; */
+  }
+ 
+  
+
+
+

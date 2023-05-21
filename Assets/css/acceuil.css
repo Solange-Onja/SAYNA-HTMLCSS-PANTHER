@@ -1,8 +1,189 @@
-.section1{
+.aside {
+    width: 0.25vw;
+    height: 35vw;
+    float: left;
+    margin-top: -20vw;
+    background-color: #9E91B7;
+    margin-left: 2vw;
+}
+.aside2 {
+    width: 0.25vw;
+    height: 25vw;
+    float: left;
+    margin-top: -20vw;
+    background-color: #9E91B7;
+    margin-left: 2vw;
+}
+.listeaside{
+    list-style:none;
+    padding-top: 2vw;
+    justify-content: space-between;
+
+   
+}
+.listeaside-a{
+  padding-right: 5vw;
+}
+
+.section1 {
     background-image: url('../images/acceuil/Pantherhome1.png');
     background-size: contain;
     /* width: 50%; */
-    height: 40vw ;
+    height: 40vw;
     background-repeat: no-repeat;
     background-position: 90% 0;
+    margin-left: 8%;
 }
+
+.titre1 {
+    padding-top: 10%;
+}
+
+.titre2 {
+    color: #9E91B7;
+    margin-top: -5%;
+}
+
+.titre3 {
+    color: #9E91B7;
+    margin-top: 5%;
+}
+
+section div a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* debut section2  */
+.section2 {
+    background-color: #07338C;
+    display: grid;
+    grid-template-columns: 3vw 25vw 20vw 15vw 20vw 17vw;
+}
+
+.image1 {
+    width: 23vw;
+    margin-top: -3vw;
+    margin-bottom: -10vw;
+}
+
+.killmonger {
+    margin-left: 2%;
+    margin-right: 10%;
+}
+
+.okoye {
+    margin-left: 22%;
+    margin-right: -5%;
+}
+
+.image2 {
+    width: 13.2vw;
+    margin-left: 15%;
+}
+
+/* fin section 2 */
+
+/* DEBUT SECTION 3LES DESCRIPTION  */
+.section3 {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 8vw 50vw 5vw 32vw 5vw;
+}
+
+h4 {
+    color: black;
+}
+
+.tchall {
+    background-color: white;
+    text-align: center;
+    border-radius: 2.65vw;
+    margin-top: 15vw;
+}
+
+.image3 {
+    width: 30vw;
+    margin-top: -15vw;
+}
+
+.boutton {
+    background-color: #3D2DA6;
+    text-decoration: none;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    margin-right: 1vw;
+}
+
+/* FIN SECTION 3 LES DESCRIPTION */
+
+/* DEBUT SECTION 4 PARTIE FORMULAIRE */
+.section4 {
+    background-image: url("../images/acceuil/Pantherhome7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+
+}
+
+.rectangle {
+    /* margin-top: 10vw; */
+    /* margin-bottom: 20vw; */
+    margin-left: 20vw;
+    width: 55vw;
+    background: linear-gradient(179.71deg, #FFFFFF 0.25%, rgba(255, 243, 255, 0.59) 30.61%, rgba(246, 219, 246, 0.198759) 62.53%, rgba(242, 206, 242, 0) 103.6%);
+    border-radius: 10vw;
+    padding-bottom: 10vw;
+}
+
+.texte {
+    text-align: center;
+    color: black;
+    font-size: 1.25vw;
+    padding-top: 5%;
+}
+
+.label {
+    border-radius: 1vw;
+    font-family: 'Cantarell';
+    padding: 1vw;
+    margin-bottom: 1vw;
+    width: 25vw;
+    background-color: transparent;
+}
+
+input[type="text"]::placeholder {
+    color: black;
+    /* Couleur du texte du placeholder */
+}
+
+input[type="email"]::placeholder {
+    color: black;
+    /* Couleur du texte du placeholder */
+}
+
+.message {
+    border-radius: 1vw;
+    font-family: 'Cantarell';
+    width: 26vw;
+    height: 10vw;
+    background-color: transparent;
+
+
+}
+
+.contact {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.envoyer {
+    background-color: #DF99F2;
+    padding: 1vw;
+    border-radius: 1vw;
+    width: 10vw;
+    margin-top: 2vw;
+}
+
+/* FIN SECTION 4 PARTIE FORMULAIRE  */

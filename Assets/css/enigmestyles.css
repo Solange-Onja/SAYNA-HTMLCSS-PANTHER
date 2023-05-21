@@ -1,0 +1,8 @@
+.section1{
+    background-image: url('../images/enigme/Pantherenigme1.png');
+    background-size: contain;
+    height:50vw;
+    background-repeat: no-repeat;
+    background-position: 10% 0;
+    margin-left: 8%;
+}
