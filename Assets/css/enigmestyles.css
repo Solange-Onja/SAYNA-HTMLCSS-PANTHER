@@ -1,8 +1,106 @@
-.section1{
+.section1 {
     background-image: url('../images/enigme/Pantherenigme1.png');
     background-size: contain;
-    height:50vw;
+    height: 50vw;
     background-repeat: no-repeat;
-    background-position: 10% 0;
-    margin-left: 8%;
+    margin-top: -10%;
+
+    /* background-position: 5% 0; */
+    /* margin-left: 8%; */
+}
+
+.h1 {
+    font-family: 'BEYNO';
+    padding-top: 2vw;
+    font-size: 4vw;
+    margin-top: 15vw;
+    margin-right: 10vw;
+
+}
+
+.image2 {
+    width: 50vw;
+    margin-right: 2vw;
+}
+
+.param1 {
+    margin-top: -20vw;
+    margin-left: 8vw;
+    font-size: 1vw;
+}
+
+.image3 {
+    width: 50vw;
+    margin-top: 10vw;
+}
+
+.section2 {
+    margin-left: 10vw;
+    margin-top: 10vw;
+}
+
+.titre {
+    padding-top: 5vw;
+    font-family: 'Wakanda forever';
+    color: #9E91B7;
+    tab-size: 4;
+}
+
+.traduire {
+    margin-bottom: 2vw;
+}
+
+.highlight {
+    font-family: 'Wakanda Forever', sans-serif;
+}
+
+.droit {
+    float: right;
+    margin-top: -5vw;
+    margin-bottom: 10vw;
+    margin-right: 2vw;
+}
+
+.image22 {
+    width: 50vw;
+    margin-left: 50vw;
+    margin-top: -8vw;
+}
+
+.param2 {
+    margin-left: 70vw;
+    margin-top: -20vw;
+}
+
+.param22 {
+    margin-left: 50vw;
+    text-align: center;
+}
+
+.section3 {
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+}
+
+.inputtext {
+    border-radius: 1vw;
+    color: #ffffff;
+    border-color: #9E91B7;
+    width: 20vw;
+    height: 2vw;
+    background-color: transparent;
+    font-family: 'Cantarell';
+    font-size: 10px;
+}
+
+.submit {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    background-color: #F2CEF2;
+    border-radius: 1vw;
+    border-style: none;
+    padding: 0.5vw;
+    font-family: 'Cantarell';
+    font-size: 1vw;
+    width: 10vw;
 }
