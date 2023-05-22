@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background-image: url('../images/wakanda/Pantherwakanda1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vw;
+    width: 100vw;
+    margin-top: -5vw;
+    margin-right: 0;
+    /* text-align: center */
+    
+}
+.section2{
+    background-image: url('../images/wakanda/Pantherwakanda2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height: 100%; */
+    width: 100vw;
+    margin-top: -5vw;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns:5vw 45vw 5vw 45vw ;
+    margin-bottom: 5vw;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* column-gap: 5vw; */
+   
+}
+.h3{
+    color: #9E91B7 ;
+    font-family: 'BEYNO';
+    font-size: 1.5vw;
+}
