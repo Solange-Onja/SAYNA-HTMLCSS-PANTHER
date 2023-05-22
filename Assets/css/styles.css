@@ -40,6 +40,9 @@ h2{
     font-size: 2em;
     color: white;
 }
+h2:hover{
+    color: #9E91B7;
+}
 nav {
 
     display: flex;
@@ -80,6 +83,10 @@ nav ul li a{
     padding-left: -5%;
     text-decoration: none;
     font-size: 0.75em;
+}
+nav ul li a:hover{
+    color: #9E91B7;
+    text-decoration: underline;
 }
 p{
 text-align: justify;
