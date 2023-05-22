@@ -22,7 +22,11 @@ body{
     color: white;
     margin: 0;
     padding: 0;
-   
+    /* animation */
+    animation-name: slideIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
     
 }
 h1{
@@ -44,8 +48,20 @@ nav {
     vertical-align: middle;
     padding-left: 3vw;
     margin: 3%;
+   
+   
 
 }
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
 nav ul {
     display: flex;
@@ -94,6 +110,10 @@ footer{
     left: 18vw;
     width: 8vw;
   }
+  .footer1 :hover{
+    transform: scale(1.1);
+
+  }
   .column2{
     padding-top: 5vw;
     display: grid;
@@ -113,6 +133,9 @@ footer{
   padding-right: 1vw;
   left: 1vw;
    width: 3vw;
+  }
+  .imagefooter:hover{
+    transform: scale(1.5);
   }
   .columnfusioner{
     grid-column: 1 / 3;
