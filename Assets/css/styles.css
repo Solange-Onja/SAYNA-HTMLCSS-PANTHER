@@ -81,12 +81,18 @@ nav ul {
     padding-right: 5%;
     list-style: none;
 }
-.tlogo img{
-  transition: filter 0.3s;
-  
+.logos-container {
+  display: flex;
+  justify-content: center;
 }
-.tlogo:hover img{
-  filter: brightness(200%);
+.logo img {
+  width:3vw; /* Ajustez la taille selon  besoins */
+  height: auto;
+  transition: color 0.3s; /* Animation de transition */
+}
+
+.logo:hover img {
+  color: violet; /* Couleur violette au survol */
 }
 
 
