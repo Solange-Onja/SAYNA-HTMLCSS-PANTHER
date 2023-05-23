@@ -14,6 +14,36 @@ body{
     /* text-align: center */
     
 }
+.soussection{
+   padding-top: 18vw;
+    padding-left: 10vw;
+     color: #9E91B7;
+}
+.h3tritre{
+    font-family: 'Wakanda forever'; 
+    margin-top: -3vw; 
+    font-size: 2vw;
+}
+.classp{
+   text-align: justify; 
+   font-size: 1vw; 
+   color: #ffffff;
+    line-height: 1.5vw;
+}
+.column22{
+    margin-left: 5vw; 
+    margin-top: 5vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.card{
+   background-color: #07338C;
+    height: 20vw;
+     text-align: center;margin-top: 5vw;
+}
+.column3{
+    margin-top: 5vw;
+     background-color: rgba(0, 0, 0, 0.5);
+}
 .section2{
     background-image: url('../images/wakanda/Pantherwakanda2.png');
     background-repeat: no-repeat;
