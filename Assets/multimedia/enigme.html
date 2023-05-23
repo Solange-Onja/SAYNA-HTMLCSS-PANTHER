@@ -33,7 +33,7 @@
                 </li>
                 <li>
                     <a href="../multimedia/enigme.html">
-                        <h2>enigme</h2>
+                        <h2 style="color: #9E91B7;">enigme</h2>
                     </a>
                 </li>
             </ul>
@@ -77,7 +77,7 @@
                 <p class="traduire">
                     Voici la transicription de l’alphabet :
                 </p>
-                
+
                 <p>A = <span class="highlight">A</span> ;
                     B = <span class="highlight">b</span> ;
                     c = <span class="highlight">c</span> ;
@@ -108,21 +108,25 @@
             <div class="droit">
                 <img src="../images/enigme/Pantherenigme2.png" alt="" class="image22">
                 <p class="param2">
-                    le savais tu? 
-                    <p class="param22">
-                        Plusieurs sources s’entendent pour dire que la lettre la plus utilisée en français est <br>
-                        la lettre E. En pourcentage de fréquence, la lettre est utilisée à 14% dans une <br>
-                        phrase. Et si tu regardais quel symbole revient le plus souvent ?
-                    </p>
+                    le savais tu?
+                <p class="param22">
+                    Plusieurs sources s’entendent pour dire que la lettre la plus utilisée en français est <br>
+                    la lettre E. En pourcentage de fréquence, la lettre est utilisée à 14% dans une <br>
+                    phrase. Et si tu regardais quel symbole revient le plus souvent ?
                 </p>
-                    
+                </p>
+
             </div>
         </section>
         <section class="section3">
             <div>
                 <p>Alors, as tu la réponse ?</p>
                 <input type="text" placeholder="Réponse" class="inputtext">
-         <br>   <input type="submit" value="ENVOYER" class="submit">
+                <br> 
+                <form action="../javascript/enigme.js" id="myFormulaire">
+                    <input type="submit" value="ENVOYER" class="submit" >
+                </form>
+                <!-- <button onclick="hidePopup()">ENVOYER </button> -->
             </div>
         </section>
 
@@ -168,10 +172,19 @@
                 </div>
 
             </div>
-            <p class="columnfusioner">2022 Tous droits réservés Politique de confidentialité Conditions d’utilisation
-            </p>
+            <p class="columnfusioner"> 2022 Tous droits réservés <span class="pointed-paragraph">Politique de
+                    confidentialité</span> <span class="pointed-paragraph">Conditions d’utilisation</span></p>
+
         </div>
     </footer>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <p>Opération effectuée!</p>
+          <p>Vos informations ont été soumises avec succès.</p>
+          <button id="closeBtn">Fermer</button>
+        </div>
+      </div>
+    <script src="../javascript/enigme.js"></script>
 
 </body>
 

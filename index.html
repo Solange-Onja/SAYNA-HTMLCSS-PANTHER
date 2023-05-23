@@ -15,16 +15,17 @@
     <header>
 
         <nav>
-            <div>
-                <a href="./index.html"><img src="./Assets/images/all/icon_SAYNA.png" alt="">
-                    <img src="./Assets/images/all/icon_x.png" alt="">
-                    <img src="./Assets/images/all/icon_MARVEL.png" alt=""></a>
+            <div style="vertical-align: middle;">
+                <a href="./index.html" class="active"><img class="tlogo" src="./Assets/images/all/icon_SAYNA.png"
+                        alt="">
+                    <img class="tlogo" src="./Assets/images/all/icon_x.png" alt="">
+                    <img class="tlogo" src="./Assets/images/all/icon_MARVEL.png" alt=""></a>
             </div>
 
             <ul class="liste">
                 <li>
                     <a href="./index.html">
-                        <h2>acceuil</h2>
+                        <h2 style="color: #9E91B7;">acceuil</h2>
                     </a>
                 </li>
                 <li>
@@ -49,25 +50,25 @@
         </div>
         <div style="display: flex;">
             <div class="aside2">
-                <div style="margin-top: 25vw; padding-left: -3vw; margin-left: -0.75vw;">
+                <div class="social-icon">
                     <li class="listeaside">
                         <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html
                         "> <img src="./Assets/images/all/icon_facebook.png" alt=""></a>
                     </li>
-                    <li  style="list-style:none;">
+                    <li style="list-style:none;">
                         <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html
                         "> <img src="./Assets/images/all/icon_instagram.png" alt=""></a>
                     </li>
-                    <li  style="list-style:none;">
+                    <li style="list-style:none;">
                         <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html
                         "> <img src="./Assets/images/all/icon_twitter.png" alt=""></a>
                     </li>
-                    <li  style="list-style:none;">
+                    <li style="list-style:none;">
                         <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html
                         "> <img src="./Assets/images/all/icon_tiktok.png" alt=""></a>
                     </li>
                 </div>
-    
+
             </div>
         </div>
     </aside>
@@ -324,14 +325,15 @@
                 <div>
                     <p class="texte"> Besoin de l’intervention du Wakanda ?</p>
                     <h4 class="contact"> Contactez nous ! </h4>
-                    <form action="#">
+                    <form action="./Assets/javascript/script.js" id="myformulaire">
                         <input type="text" name="nom" placeholder="Nom" class="label"> <br>
                         <input type="email" name="email" placeholder="Email" class="label"> <br>
                         <input type="text" name="message" placeholder="Message" class="message"> <br>
-                        <input type="button" value="ENVOYER" class="envoyer">
+                        <input type="submit" value="ENVOYER" class="envoyer">
                     </form>
                 </div>
-
+                
+                  
             </div>
         </section>
     </main>
@@ -373,15 +375,25 @@
                         "><img src="./Assets/images/all/footer6.png" alt="" class="imagefooter"></a>
                     </li>
                 </div>
-                
+
             </div>
-            <p class="columnfusioner">2022 Tous droits réservés Politique de confidentialité Conditions d’utilisation</p>
+            <p class="columnfusioner">
+                2022 Tous droits réservés <span class="pointed-paragraph">Politique de confidentialité</span> <span
+                    class="pointed-paragraph">Conditions d’utilisation</span></p>
         </div>
 
 
 
     </footer>
-
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <p>Opération effectuée!</p>
+          <p>Vos informations ont été soumises avec succès.</p>
+          <button id="closeBtn">Fermer</button>
+        </div>
+      </div>
+    <script src="./Assets/javascript/script.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script> -->
 
 </body>
 
